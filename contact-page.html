@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable Form Example</title>
+    <link rel="stylesheet" href="./css/styles-2.css">
+    <script defer src="./js/airtable.browser.js"></script>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+
+    <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="John Doe">
+        
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="john@example.com">
+
+        <label for="cell">Cell</label>
+        <input id="cell" type="tel" name="cell" placeholder="1 555 555 5555">
+
+        <label for="reason">Reason for Contacting</label>
+        <textarea id="reason" name="reason" placeholder="We've been trying to reach you about your car's extended warranty..."></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
