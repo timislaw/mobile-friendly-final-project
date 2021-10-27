@@ -3,10 +3,10 @@
     font-family: sans-serif;
 }
 
-body{
+form{
     margin: 0;
     min-height: 100vh;
-    background-color: rgba(0,0,0,.9);
+    background-color: white(0,0,0,.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +62,25 @@ input[type=submit]:hover{
 textarea{
     resize: vertical;
     min-height: 100px;
+}
+#lithium{
+    height: 40px;
+    border-radius: 50%;
+}
+a:link{
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+    font-weight: bolder;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+.navbar{
+    text-decoration: none;
+    color: black;
 }

@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airtable Form Example</title>
     <link rel="stylesheet" href="./css/styles-2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet"/>
     <script defer src="./js/airtable.browser.js"></script>
     <script defer src="./js/script.js"></script>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar">
+              <a href="./index.html" class="navbar-brand">
+                <img id="lithium" src="./img/Screen Shot 2021-09-12 at 9.17.24 PM.png">
+              </a>
+              <div class="navbar justify-content-sm-end">  
+                <p class="nav-link">
+                  <a href="#">Home</a>
+                </p>
+                <p class="nav-link">
+                  <a href="#">The Team</a>
+                </p>
+                <p class="nav-link">
+                  <a href="./contact-page.html">Contact</a>
+                </p>
+              </div>
+              </nav>
+          </div>
 
     <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
         <label for="name">Name</label>
@@ -26,6 +48,12 @@
         
         <input type="submit" value="Submit">
     </form>
-
+    <div class="row justify-content-sm-center text-center footerOne w-100">
+        <footer id="contact">
+          <p>&copy 2020-2021, BRoss</p>
+        </footer>
+      </div>
+    
+</div>
 </body>
 </html>

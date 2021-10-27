@@ -8,12 +8,218 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
     <script defer src="./js/script.js"></script>
-    <title>Hello, world!</title>
+    <title>Advanced</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <!-- content goes below here -->
 
+    <div class="container-fluid">
+    <!--navbar  -->
+      <div class="row">
+        <nav class="navbar">
+          <a href="./index.html" class="navbar-brand">
+            <img id="lithium" src="./img/Screen Shot 2021-09-12 at 9.17.24 PM.png">
+          </a>
+          <div class="navbar justify-content-sm-end">  
+            <p class="nav-link">
+              <a href="#">Home</a>
+            </p>
+            <p class="nav-link">
+              <a href="#">The Team</a>
+            </p>
+            <p class="nav-link">
+              <a href="./contact-page.html">Contact</a>
+            </p>
+          </div>
+          </nav>
+      </div>
+    <!-- jumbotron -->
+      <div class="row">
+        <div class="col jumbotron jumbotron-fluid">
+          <div class="container align-content-center text-center">
+            <br><br>
+            <h1 class="display-4">
+              Energy. Power. Progress.
+            </h1>
+            <br><br>
+            <p class="lead">
+              With 45 years of experience, we can make California 95% emission free and be the leader for eliminating our carbon footprint. All while still maintaining efficient energy supply.
+            </p>
+            <br><br>
+            <button type="button" class="btn-lg btn-dark btn-primary"><a href="./contact-page.html" id="text-color">Find out how</a></button>
+            <br><br><br><br><br>
+          </div>
+        </div>
+      </div>
+    
+    <div class="row">
+      <div class="col-6 offset-3 text-center jumbo-text">
+        <br>
+        <h1>It starts with you.</h1>
+        <h3>Making change isn't easy. <br> But with our team's guidance and industry knowledge, we'll help you remain on top. </h3>
+      </div>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <h2>Client List</h2>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            USC College Campus/Science Division
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Assisted in routine instrument servicing. <br>Replacement of more updated instrumentation. <br>Training on new equipment for chemical engineers.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Cosmodyne
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Assistance in classified project in cryogenics. <br>Fine-tuning of instrumentation to ensure safety protocols met. <br>Administer routine servicing to instrumentation and train staff for use.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Chevron USA
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Support for future environmental solutions. <br>Testing, remediation, proactive interventions. <br> Elimination of logistical headaches.</div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide car-color" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="refinery">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Routine Instrumentation Eval</h5>
+            <p>Ensuring that all equipment is in optimal effiency. If not, evaluate and consider new solutions.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="refinery">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Data Analysis</h5>
+            <p>Review raw data to form into information for critical decision-making.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="refinery">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Safety Standards</h5>
+            <p>Evaluate safety measures taken through observation/participation in daily operations.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+      <hr>
+      <div class="row text-center">
+        <div>
+          <h1>
+            Waiting doesn't delay the inevitable!
+          </h1>
+          <br>
+          <p>
+            By 2035, California is aiming for no carbon emissions.
+          </p>
+          <br>
+          <button class="btn-lg btn-dark btn-secondary"><a href="./contact-page.html" id="text-color">Start Preparing</a></button>
+          <br><br>
+        </div>
+      </div>
+      <!-- <div class="row cardWrapper">
+        <hr>
+        <h3>Our Location</h3>
+        <br><br>
+        <p>For in-person meeting, <br>AS&T is located in Carson across<br> the street from Marathon Refinery. </p>
+        <div class="justify-content-xl-center col-sm-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13258.369608574149!2d-118.2430538!3d33.8228302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcecbfe091229ee85!2sMarathon%20Refinery%20Carson!5e0!3m2!1sen!2sus!4v1635352773907!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+          <h3 class="col-sm-6">Contact Info</h3>
+        </div>
+      </div> -->
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-start">
+            <br><br>
+            <h3>Our Location</h3>
+            <p>For in-person meeting, <br>AS&T is located in Carson across<br> the street from Marathon Refinery. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13258.369608574149!2d-118.2430538!3d33.8228302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcecbfe091229ee85!2sMarathon%20Refinery%20Carson!5e0!3m2!1sen!2sus!4v1635352773907!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col align-self-end">
+            <h5>Hours of Operation</h5>
+            <p>Mon: 5:00 AM - 4:00 PM</p>
+            <p>Tues: 5:00 AM - 4:00 PM</p>
+            <p>Wed: 5:00 AM - 4:00 PM</p>
+            <p>Thurs: 5:00 AM - 4:00 PM</p>
+            <p>Fri: 5:00 AM - 4:00 PM</p>
+          </div>
+          <div class="col align-self-end">
+            <h3>Contact Us</h3>
+            <p>(555)999-3333</p>
+            <p>personal.timross@aol.com</p>
+            <p>10 Shoreland Dr, Belfast, ME, 04915</p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row justify-content-sm-center text-center footerOne w-100">
+        <footer id="contact">
+          <ul>
+            <div id="icon-container">
+              <a href="#">
+                <div id="icon">
+                  <li><i class="fab fa-twitter"></i></li>
+                </div>
+              </a>
+              <a href="#">
+                <div id="icon">
+                  <li><i class="fab fa-instagram"></i></li>
+                </div>
+              </a>
+              <a href="#">
+                <div id="icon">
+                  <li><i class="fab fa-facebook-f"></i></li>
+                </div>
+              </a>
+              <a href="https://timislaw.github.io/final-project-bitwise/">
+                <div id="icon">
+                  <li><i class="far fa-envelope"></i></li>
+                </div>
+              </a>
+            </div>
+          </ul>
+          <p>&copy 2020-2021, BRoss</p>
+        </footer>
+      </div>
+<!-- end container -->
+    
+  </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
